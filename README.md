@@ -1,7 +1,7 @@
 # n8n for Railway
 
-Wraps the official `n8nio/n8n` image (2.47.7) for the Railway "n8n with Postgres"
-template, published as `ghcr.io/bon5co/n8n-postgres-railway:2.47.7`.
+Wraps the official `n8nio/n8n` image (2.48.7) for the Railway "n8n with Postgres"
+template, published as `ghcr.io/bon5co/n8n-postgres-railway:2.48.7`.
 
 Railway's template generator keeps a variable default only when it is a Railway
 expression (`${{secret(n)}}`, `${{svc.VAR}}`); literals publish as blank required

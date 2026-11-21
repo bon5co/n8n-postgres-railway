@@ -25,4 +25,4 @@ jobs:
           file: Dockerfile
           push: true
           provenance: false
-          tags: ghcr.io/${{ github.repository_owner }}/n8n-postgres-railway:2.47.7
+          tags: ghcr.io/${{ github.repository_owner }}/n8n-postgres-railway:2.48.7

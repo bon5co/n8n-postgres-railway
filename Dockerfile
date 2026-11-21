@@ -1,11 +1,11 @@
-# n8n 2.47.7 wrapper for Railway (n8n with Postgres template).
+# n8n 2.48.7 wrapper for Railway (n8n with Postgres template).
 #
 # Everything the deploy form should not ask for is baked here as ENV: Railway's
 # template generator drops literal variable defaults, so a literal left on the
 # service publishes as a blank required field. Only references to the Postgres
 # service and generated secrets stay as template variables.
 # upstream: n8n-io/n8n
-FROM n8nio/n8n:2.47.7
+FROM n8nio/n8n:2.48.7
 
 ENV DB_TYPE=postgresdb \
     DB_POSTGRESDB_PORT=5432 \
